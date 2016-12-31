@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\h2DSlider.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hAlert.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hAlertLabel.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hButton.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hButtonBox.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hButtonBoxItem.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hCheckBox.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hCounterLabel.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hDialog.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hDialogButton.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hDrawingPrimitives.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hGui.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hIncButton.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hLabel.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hListBox.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hListItem.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hMessageBox.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hNumberBox.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hPanel.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hScrollBar.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hScrollButton.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hSlider.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hSliderBox.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hStatusBar.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hSVumeter.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hTabBox.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hTabBoxItem.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hTextArea.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hTextAreaButton.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hTextBox.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hTScrollBar.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hWaveform.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hWidget.cpp">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhUtils\src\hEvents\hEvents.cpp">
+      <Filter>addons\ofxhUtils\src\hEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhUtils\src\hEvents\hSymbols.cpp">
+      <Filter>addons\ofxhUtils\src\hEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhUtils\src\hStringUtils\hStringUtils.cpp">
+      <Filter>addons\ofxhUtils\src\hStringUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxhUtils\src\hTable\hTable.cpp">
+      <Filter>addons\ofxhUtils\src\hTable</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{d7ac135a-a9e2-44d1-adbc-ae19e874bf8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxhGui">
+      <UniqueIdentifier>{9139ce30-6ea7-493d-a2fd-c915c4a930f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxhGui\src">
+      <UniqueIdentifier>{093ea8c8-3cd5-450f-87cc-a112bc6cd9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{e57a33f3-66c7-4a91-9d36-46b0b596866e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{6bbfcaca-7c71-42ca-afd3-dd392653492f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\libs">
+      <UniqueIdentifier>{5ea4ad2d-e780-4809-85a8-136faee4ee59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxhUtils">
+      <UniqueIdentifier>{e80fe7d8-b02c-4d59-aeb8-496e4906569f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxhUtils\src">
+      <UniqueIdentifier>{4c39d08f-0933-478a-8463-ad4c46ae70f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxhUtils\src\hEvents">
+      <UniqueIdentifier>{f36cc4e3-1973-4958-9b5c-07491e347ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxhUtils\src\hStringUtils">
+      <UniqueIdentifier>{aae7de51-a6fd-43e5-ad53-b5f5bcd45959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxhUtils\src\hTable">
+      <UniqueIdentifier>{d06ff99d-5184-442a-a559-cd578601bf42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\h2DSlider.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hAlert.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hAlertLabel.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hButton.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hButtonBox.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hButtonBoxItem.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hCheckBox.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hCounterLabel.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hDialog.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hDialogButton.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hDrawingPrimitives.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hGui.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hGui_all.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hIncButton.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hLabel.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hListBox.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hListItem.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hMessageBox.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hNumberBox.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hPanel.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hScrollBar.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hScrollButton.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hSlider.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hSliderBox.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hStatusBar.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hSVumeter.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hTabBox.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hTabBoxItem.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hTextArea.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hTextAreaButton.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hTextBox.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hTScrollBar.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hWaveform.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hWidget.h">
+      <Filter>addons\ofxhGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhUtils\src\hEvents\hEvents.h">
+      <Filter>addons\ofxhUtils\src\hEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhUtils\src\hEvents\hObject.h">
+      <Filter>addons\ofxhUtils\src\hEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhUtils\src\hEvents\hSymbols.h">
+      <Filter>addons\ofxhUtils\src\hEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhUtils\src\hStringUtils\hStringUtils.h">
+      <Filter>addons\ofxhUtils\src\hStringUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxhUtils\src\hTable\hTable.h">
+      <Filter>addons\ofxhUtils\src\hTable</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>

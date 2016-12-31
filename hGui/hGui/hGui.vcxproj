@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7FD42DF7-442E-479A-BA76-D0022F99702A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>hGui</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\libs\openFrameworksCompiled\project\vs\openFrameworksRelease.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\libs\openFrameworksCompiled\project\vs\openFrameworksRelease.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\libs\openFrameworksCompiled\project\vs\openFrameworksDebug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\libs\openFrameworksCompiled\project\vs\openFrameworksDebug.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>bin\</OutDir>
+    <IntDir>obj\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_debug</TargetName>
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>bin\</OutDir>
+    <IntDir>obj\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_debug</TargetName>
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>bin\</OutDir>
+    <IntDir>obj\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>bin\</OutDir>
+    <IntDir>obj\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhGui\src;C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxXmlSettings\src;C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxXmlSettings\libs;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src\hEvents;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src\hStringUtils;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src\hTable;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhGui\src;C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxXmlSettings\src;C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxXmlSettings\libs;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src\hEvents;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src\hStringUtils;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src\hTable;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhGui\src;C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxXmlSettings\src;C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxXmlSettings\libs;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src\hEvents;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src\hStringUtils;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src\hTable;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhGui\src;C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxXmlSettings\src;C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxXmlSettings\libs;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src\hEvents;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src\hStringUtils;
+C:\Users\Laura\Documents\Visual Studio 2015\of_v0.9.8_vs_release\addons\ofxhUtils\src\hTable;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\h2DSlider.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hAlert.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hAlertLabel.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hButton.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hButtonBox.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hButtonBoxItem.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hCheckBox.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hCounterLabel.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hDialog.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hDialogButton.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hDrawingPrimitives.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hGui.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hIncButton.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hLabel.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hListBox.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hListItem.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hMessageBox.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hNumberBox.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hPanel.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hScrollBar.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hScrollButton.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hSlider.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hSliderBox.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hStatusBar.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hSVumeter.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hTabBox.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hTabBoxItem.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hTextArea.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hTextAreaButton.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hTextBox.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hTScrollBar.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hWaveform.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhGui\src\hWidget.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhUtils\src\hEvents\hEvents.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhUtils\src\hEvents\hSymbols.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhUtils\src\hStringUtils\hStringUtils.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxhUtils\src\hTable\hTable.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp" />
+    <ClCompile Include="..\..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\ofApp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\h2DSlider.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hAlert.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hAlertLabel.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hButton.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hButtonBox.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hButtonBoxItem.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hCheckBox.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hCounterLabel.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hDialog.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hDialogButton.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hDrawingPrimitives.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hGui.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hGui_all.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hIncButton.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hLabel.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hListBox.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hListItem.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hMessageBox.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hNumberBox.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hPanel.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hScrollBar.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hScrollButton.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hSlider.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hSliderBox.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hStatusBar.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hSVumeter.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hTabBox.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hTabBoxItem.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hTextArea.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hTextAreaButton.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hTextBox.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hTScrollBar.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hWaveform.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhGui\src\hWidget.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhUtils\src\hEvents\hEvents.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhUtils\src\hEvents\hObject.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhUtils\src\hEvents\hSymbols.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhUtils\src\hStringUtils\hStringUtils.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxhUtils\src\hTable\hTable.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxXmlSettings\libs\tinyxml.h" />
+    <ClInclude Include="..\..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h" />
+    <ClInclude Include="src\ofApp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(OF_ROOT)\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">
+      <Project>{5837595d-aca9-485c-8e76-729040ce4b0b}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">/D_DEBUG %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">/D_DEBUG %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(OF_ROOT)\libs\openFrameworksCompiled\project\vs</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="icon.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
